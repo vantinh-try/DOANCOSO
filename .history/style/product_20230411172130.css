@@ -1,0 +1,5 @@
+.sidebar a,
+.dropdown-btn {
+    display: block;
+    text-decoration: none;
+}

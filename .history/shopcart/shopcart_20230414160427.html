@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./shopcart.css">
+    <script src="http://kit.fontawesome.com/92d70a2fd8.js"></script>
+</head>
+<body>
+    <div class="header">
+        <p class="logo">TNL Store</p>
+        <div class="cart"><i class="fa-solid fa-cart-shopping"></i>
+            <p id="count">0</p>
+        </div>
+    </div>
+    <div class="container">
+        <div id="root">
+
+        </div>
+        <div class="sidebar">
+            <div class="head">Giỏ hàng của tôi
+            </div>
+            <div id="cart-item">Giỏ hàng của bạn đang trống</div>
+            <div class="foot">
+                <h3>Total</h3>
+                <h2 id="total">0đ</h2>
+            </div>
+            <button type="submit" onclick="openPopup()">Thanh toán</button>
+            <div class="popup" id="popup">
+                <img src="./tick-check-mark-icon-sign-symbol-design-free-png.webp" alt="">
+                <h2>Thank you!</h2>
+                <p>Cảm ơn vì đã mua hàng ở TNL Store</p>
+                <button type="button" onclick="closePopup()">
+                    <a href=""></a>
+                    Về trang chủ</button>
+            </div>
+        </div>
+
+    </div>
+    <script src="./shopcart.js"></script>
+
+</body>
+</html>

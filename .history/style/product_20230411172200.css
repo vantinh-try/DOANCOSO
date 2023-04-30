@@ -1,0 +1,11 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.sidebar a,
+.dropdown-btn {
+    display: block;
+    text-decoration: none;
+}

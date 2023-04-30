@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <link rel="stylesheet" href="./style.css" />
+    </head>
+    <body>
+        <div class="login">
+            <div class="form-box">
+                <div class="button-box">
+                    <div id="btn"></div>
+                    <button type="button" class="toggle-btn" onclick="login()">
+                        Login
+                    </button>
+                    <button
+                        type="button"
+                        class="toggle-btn"
+                        onclick="register()"
+                    >
+                        Register
+                    </button>
+                </div>
+                <div class="social-icon">
+                    <img src="./Facebook_Logo_(2019).png" alt="" />
+                    <img
+                        src="./logo-gmail-png-file-gmail-icon-svg-wikimedia-commons-0.png"
+                        alt=""
+                    />
+                    <img
+                        src="./pngtree-twitter-social-media-round-icon-png-image_6315985.png"
+                        alt=""
+                    />
+                </div>
+                <form id="login" class="input-group">
+                    <input
+                        type="text"
+                        class="input-field"
+                        placeholder="Tên đăng nhập"
+                        required
+                    />
+                    <input
+                        type="text"
+                        class="input-field"
+                        placeholder="Mật khẩu"
+                        required
+                    />
+                    <input type="checkbox" class="check-box" />
+                    <span>Nhớ mật khẩu</span>
+                    <a href=""
+                        ><button type="submit" class="submit-btn">
+                            Login
+                        </button></a
+                    >
+                </form>
+                <form id="register" class="input-group">
+                    <input
+                        type="text"
+                        class="input-field"
+                        placeholder="Tên đăng nhập"
+                        required
+                    />
+                    <input
+                        type="email"
+                        class="input-field"
+                        placeholder="Email"
+                        required
+                    />
+                    <input
+                        type="text"
+                        class="input-field"
+                        placeholder="Mật khẩu"
+                        required
+                    />
+                    <input type="checkbox" class="check-box" />
+                    <span>Đồng ý với điều khoản của chúng tôi</span>
+                    <button type="submit" class="submit-btn">Register</button>
+                </form>
+            </div>
+        </div>
+        <script src="./toggle.js"></script>
+    </body>
+</html>

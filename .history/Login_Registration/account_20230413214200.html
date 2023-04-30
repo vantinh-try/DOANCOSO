@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <link rel="stylesheet" href="./style.css" />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,700&display=swap"
+            rel="stylesheet"
+        />
+    </head>
+    <body>
+        <div class="login">
+            <div class="form-box">
+                <div class="button-box">
+                    <div id="btn"></div>
+                    <button type="button" class="toggle-btn" onclick="login()">
+                        Login
+                    </button>
+                    <button
+                        type="button"
+                        class="toggle-btn"
+                        onclick="register()"
+                    >
+                        Register
+                    </button>
+                </div>
+                <div class="social-icon">
+                    <img src="./Facebook_Logo_(2019).png" alt="" />
+                    <img
+                        src="./logo-gmail-png-file-gmail-icon-svg-wikimedia-commons-0.png"
+                        alt=""
+                    />
+                    <img
+                        src="./pngtree-twitter-social-media-round-icon-png-image_6315985.png"
+                        alt=""
+                    />
+                </div>
+                <form id="login" class="input-group" action="../product.html">
+                    <input
+                        type="text"
+                        class="input-field"
+                        placeholder="Tên đăng nhập"
+                        required
+                    />
+                    <input
+                        type="password"
+                        class="input-field"
+                        placeholder="Mật khẩu"
+                        required
+                    />
+                    <input type="checkbox" class="check-box" required />
+                    <span>Nhớ mật khẩu</span>
+                    <input type="submit" class="submit-btn" />
+                </form>
+                <form id="register" class="input-group">
+                    <input
+                        type="text"
+                        class="input-field"
+                        placeholder="Tên đăng nhập"
+                        required
+                    />
+                    <input
+                        type="email"
+                        class="input-field"
+                        placeholder="Email"
+                        required
+                    />
+                    <input
+                        type="password"
+                        class="input-field"
+                        placeholder="Mật khẩu"
+                        required
+                    />
+                    <input type="checkbox" class="check-box" />
+                    <span>Đồng ý với điều khoản của chúng tôi</span>
+                    <button type="submit" class="submit-btn">Register</button>
+                </form>
+            </div>
+        </div>
+        <script src="./toggle.js"></script>
+    </body>
+</html>

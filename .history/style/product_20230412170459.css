@@ -1,0 +1,168 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+html {
+    font-size: 62.5%;
+}
+body {
+    font-family: "Poppins", sans-serif;
+    font-size: 1.6rem;
+    margin: 0 auto;
+    width: 1280px;
+    background-color: #1b2838;
+    display: flex;
+}
+/* Phần sidebar */
+h2 {
+    color: #333;
+    padding: 20px 20px;
+}
+.sidebar {
+    background-color: #fffffc;
+    width: 255px;
+}
+.sidebar a,
+.dropdown-btn {
+    display: block;
+    font-size: 20px;
+    background-color: none;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    padding: 5px 8px 5px 0px;
+}
+.dropdown-btn {
+    width: 100%;
+    background-color: inherit;
+    color: #333;
+    font-weight: 500;
+    padding: 10px 0;
+    border-bottom: 2px solid #eee;
+}
+.fa-caret-down {
+    float: right;
+    padding-right: 8px;
+}
+.dropdown-container {
+    display: none;
+    width: 100%;
+}
+.dropdown-btn:hover {
+    background-color: #eee;
+}
+.dropdown-container a {
+    color: black;
+    font-size: 16px;
+    padding-left: 20px;
+}
+.dropdown-container a:hover {
+    background-color: #eee;
+}
+.active {
+    color: rgb(1, 11, 11);
+    background: #eee;
+}
+
+/* PHẦN NỘI DỤNG */
+main {
+    width: 100%;
+    height: 2000px;
+    /* background-color: #eee; */
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+.content {
+    width: calc(100% - 255px);
+    background-color: #eee;
+    height: 100%;
+}
+.content-product {
+    width: 100%;
+    padding: 0 40px;
+    display: flex;
+    /* justify-content: space-between; */
+    flex-wrap: wrap;
+    gap: 15px;
+}
+.content-card {
+    width: calc((100% - 30px) / 3);
+    border: 2px solid #929090;
+    border-radius: 10px;
+}
+.card-image {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    border-bottom: 1px solid #929090;
+    position: relative;
+}
+.card-image img {
+    width: 100%;
+    height: 100%;
+}
+.card-image .discount {
+    width: 100px;
+    height: 30px;
+    background-color: rgb(37, 20, 224);
+    position: absolute;
+    top: 30px;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border-radius: 50%; */
+    font-weight: 600;
+    font-size: 16px;
+    color: white;
+}
+.card-image .discount:after {
+    content: "";
+    /* width: 20px; */
+    /* height: 30px; */
+    /* background-color: red; */
+    position: absolute;
+    right: 0;
+    border-top: 15px solid transparent;
+    border-bottom: 15px solid transparent;
+    border-right: 30px solid white;
+    z-index: 1;
+}
+.card-bottom {
+    padding: 10px;
+}
+.card-name {
+    font-size: 22px;
+    font-weight: 600;
+    color: #333333;
+    height: 2em;
+}
+.card-rating {
+    display: flex;
+    margin: 10px 0;
+}
+.card-rating i {
+    color: rgb(249, 192, 86);
+}
+.card-rating p {
+    margin-left: 10px;
+    font-weight: 600;
+    color: #929090;
+}
+.card-price {
+    font-size: 25px;
+    color: red;
+    font-weight: 600;
+}
+.card-btn {
+    width: 100%;
+    height: 280px;
+    display: none;
+}

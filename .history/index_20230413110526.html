@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>TNL Store</title>
+        <link rel="stylesheet" href="./style/main.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,700&display=swap"
+            rel="stylesheet"
+        />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+            integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        />
+    </head>
+    <body>
+        <div class="slider">
+            <div class="slides">
+                <input type="radio" name="radio-btn" id="radio1" />
+                <input type="radio" name="radio-btn" id="radio2" />
+                <input type="radio" name="radio-btn" id="radio3" />
+                <input type="radio" name="radio-btn" id="radio4" />
+
+                <div class="slide first">
+                    <img src="./image/slide-image1.jpg" alt="" />
+                </div>
+                <div class="slide">
+                    <img src="./image/slide-image2.jpg" alt="" />
+                </div>
+                <div class="slide">
+                    <img src="./image/slide-image3.jpg" alt="" />
+                </div>
+                <div class="slide">
+                    <img src="./image/slide-image4.jpg" alt="" />
+                </div>
+
+                <div class="navigation-auto">
+                    <div class="auto-btn1"></div>
+                    <div class="auto-btn2"></div>
+                    <div class="auto-btn3"></div>
+                    <div class="auto-btn4"></div>
+                </div>
+            </div>
+
+            <div class="navigation-manual">
+                <label for="radio1" class="munual-btn"></label>
+                <label for="radio2" class="munual-btn"></label>
+                <label for="radio3" class="munual-btn"></label>
+                <label for="radio4" class="munual-btn"></label>
+            </div>
+        </div>
+        <!-- Block của content -->
+        <div class="block">
+            <div class="block-header">
+                <span class="block-header-title">DANH MỤC SẢN PHẨM</span>
+            </div>
+            <div class="block-content">
+                <a href="./pc-gaming.html">
+                    <div class="text">PC Gaming</div>
+                    <div class="text-sub">Chiến mọi game</div>
+                    <img src="./image/cat_maytinh_v2.png" alt="" />
+                </a>
+                <a href="./pc-vanphong.html">
+                    <div class="text">PC Văn Phòng</div>
+                    <div class="text-sub">Cân mọi tác vụ</div>
+                    <img src="./image/cat-vanphong.png" alt="" />
+                </a>
+                <a href="./pc-dohoa.html">
+                    <div class="text">PC Đồ họa</div>
+                    <div class="text-sub">Tối ưu công việc</div>
+                    <img src="./image/cat_dohoa_v3.png" alt="" />
+                </a>
+                <a href="./laptop-gaming.html">
+                    <div class="text">Laptop Gaming</div>
+                    <div class="text-sub">Làm chủ cuộc chơi mọi nơi</div>
+                    <img
+                        src="./image/cat_ laptop_v2.png"
+                        alt=""
+                        class="height-image"
+                    />
+                </a>
+                <a href="./laptop-sinhvien.html">
+                    <div class="text">Laptop sinh viên</div>
+                    <div class="text-sub">Ngon bổ rẻ</div>
+                    <img src="./image/laptop_sinhvien.png" alt="" />
+                </a>
+                <a href="./laptop-vanphong.html">
+                    <div class="text">Laptop Văn Phòng</div>
+                    <div class="text-sub">Mỏng nhẹ bền bỉ</div>
+                    <img src="./image/cat_laptop_hoctap_v2.png" alt="" />
+                </a>
+            </div>
+        </div>
+
+        <!-- footer -->
+        <footer>
+            <div class="footer-top">
+                <div class="footer-about">
+                    <h6>About</h6>
+                    <p>
+                        Scanfcode.com CODE WANTS TO BE SIMPLE is an initiative
+                        to help the upcoming programmers with the code.
+                        Scanfcode focuses on providing the most efficient code
+                        or snippets as the code wants to be simple. We will help
+                        programmers build up concepts in different programming
+                        languages that include C, C++, Java, HTML, CSS,
+                        Bootstrap, JavaScript, PHP, Android, SQL and Algorithm.
+                    </p>
+                </div>
+                <div class="footer-categories">
+                    <h6>Categories</h6>
+                    <a href=""><p>Laptop Gaming</p></a>
+                    <a href=""><p>Laptop HP</p></a>
+                    <a href=""><p>Laptop Dell</p></a>
+                </div>
+                <div class="footer-quickLinks">
+                    <h6>QUICK LINKS</h6>
+                    <p>
+                        <i class="fa-sharp fa-solid fa-location-dot"> </i> 509
+                        Phan Đình Phùng, TP Quảng Ngãi
+                    </p>
+                    <p><i class="fa fa-phone"></i> 0357732219</p>
+                    <p><i class="fa-solid fa-envelope"></i> info@example.com</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="footer-nav">
+                    <a href=""> <p>Home</p> </a>
+                    <a href=""> <p>About</p> </a>
+                    <a href=""> <p>Servi</p> </a>
+                </div>
+                <p>
+                    Copyright © 2023 | Designed With by (TỊNH, NGUYÊN, PHI LIP)
+                </p>
+                <div class="footer-icon-about">
+                    <a href="">
+                        <i class="fa-brands fa-facebook-f"></i>
+                    </a>
+                    <a href="">
+                        <i class="fa-brands fa-twitter"></i>
+                    </a>
+                    <a href="">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                </div>
+            </div>
+        </footer>
+        <script src="main.js"></script>
+    </body>
+</html>

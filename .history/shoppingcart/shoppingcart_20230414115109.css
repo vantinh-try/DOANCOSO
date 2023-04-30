@@ -1,0 +1,86 @@
+/* NAV */
+nav {
+    width: 100%;
+    height: 100px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #1b2838;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    border-bottom: 5px solid #ffffff14;
+}
+.nav-content {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 100px;
+}
+.nav-logo {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+.nav-logo img {
+    width: 100%;
+    height: 100%;
+}
+.nav-search label {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    height: 50px;
+    background-color: #eee;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.nav-search i {
+    font-size: 18px;
+    padding-left: 20px;
+}
+.nav-search input {
+    padding: 5px 15px 5px 15px;
+    outline: none;
+    background-color: inherit;
+    border: none;
+    font-size: 18px;
+    line-height: 25px;
+}
+.nav-menu a {
+    font-size: 20px;
+    color: white;
+    margin: 0 15px;
+}
+.nav-menu a:not(:last-child):hover {
+    border-bottom: 3px solid white;
+}
+.nav-menu a:nth-child(5) {
+    position: relative;
+}
+.nav-menu a:nth-child(5)::before {
+    content: "4";
+    position: absolute;
+    top: 20px;
+    right: -20px;
+    font-size: 18px;
+    font-weight: 600;
+    width: 30px;
+    height: 30px;
+    color: white;
+    background-color: blue;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav-menu .login {
+    padding: 10px 20px;
+    border-radius: 30px;
+    color: blue;
+    background-color: #eee;
+    font-weight: 600;
+}

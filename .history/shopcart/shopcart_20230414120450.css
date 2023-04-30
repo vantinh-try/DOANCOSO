@@ -1,0 +1,17 @@
+/*Giỏ hàng*/
+#cart-container table{
+    border-collapse: collapse;
+    width: 100%;
+    table-layout: fixed;
+
+}
+#cart-container table thead{
+    font-weight: 700;
+
+}
+#cart-container table thead td{
+    background: #9af4eb;
+    color: #250505;
+    border: none;
+    
+}

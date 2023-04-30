@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.6rem;
+}
+.slider {
+  width: 1280px;
+  height: 60rem;
+  border-radius: 10px;
+}
+.slides {
+  width: 500%;
+  height: 50rem;
+}

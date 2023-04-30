@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thanh toán</title>
+    <link rel="stylesheet" href="./payment.css">
+    
+</head>
+<body>
+    <div class="container">
+    <form action="">
+            <div class="row">
+                <div class="col">
+                    <h3 class="title">Địa chỉ thanh toán</h3>
+                    <div class="inputBox">
+                        <span>Họ và tên:</span>
+                        <input type="text" placeholder="Phúc Nguyên" required>
+                    </div>
+                    <div class="inputBox">
+                        <span>Email:</span>
+                        <input type="email" placeholder="example@gmail.com" required>
+                    </div>
+                    <div class="inputBox">
+                        <span>Địa chỉ:</span>
+                        <input type="text" placeholder="Mộ Đức, Quảng Ngãi" required>
+                    </div>
+                    <div class="inputBox">
+                        <span>Tỉnh/Thành phố:</span>
+                        <input type="text" placeholder="Quảng Ngãi" required>
+                    </div>
+                    <div class="flex">
+                        <div class="inputBox">
+                            <span>Quốc gia:</span>
+                            <input type="text" placeholder="Việt Nam" required>
+                        </div>
+                        <div class="inputBox">
+                            <span>Zip code:</span>
+                            <input type="text" placeholder="123 456" required>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <h3 class="title">Hình thức thanh toán</h3>
+                    <div class="inputBox">
+                        <span>Hình thức thanh toán:</span>
+                        <img src="./Credit-Card-Logos.jpg" alt="">
+                    </div>
+                    <div class="inputBox">
+                        <span>Card visit</span>
+                        <input type="text" placeholder="Mr Phuc Nguyen" required>
+                    </div>
+                    <div class="inputBox">
+                        <span>Số thẻ:</span>
+                        <input type="text" placeholder="1111-2222-3333-9999" required>
+                    </div>
+                    <div class="inputBox">
+                        <span>Tháng hết hạn:</span>
+                        <input type="text" placeholder="Tháng 2" required>
+                    </div>
+                    <div class="flex">
+                        <div class="inputBox">
+                            <span>Năm hết hạn:</span>
+                            <input type="text" placeholder="2099" required>
+                        </div>
+                        <div class="inputBox">
+                            <span>CVV:</span>
+                            <input type="text" placeholder="123" required>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <form>
+                <input type="submit" class="submit-btn" value="Xác nhận" onclick="openPopup()" required>
+                    <div class="popup" id="popup">
+                        <img src="./tick-check-mark-icon-sign-symbol-design-free-png.webp" alt="">
+                        <h2>Thank you!</h2>
+                        <p>Cảm ơn vì đã mua hàng ở TNL Store</p>
+                            <a href="./index.html">
+                                <button type="button" onclick="closePopup()">Về trang chủ</button>
+                            </a>
+                        </div>
+            </form>
+                </form>
+            </div>
+            <script src="./payment.js"></script>
+        
+</body>
+</html>
